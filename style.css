@@ -17,7 +17,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-kerning:normal;
+	font-kerning: normal;
 	background-color:#333f4f;
 	background-image: url('bg.jpg');
 	color:#96938a;
@@ -32,12 +32,11 @@ h1,h2,h3,h4 {
 }
 h1 {
 	font-size: 9rem;
-
-
+	letter-spacing: 0.02em;
+	font-kerning: none;
 }
 h2 {
-	font-size:1.5rem;
+	font-size: 1.52rem;
 	font-weight: 400;
 	text-transform: uppercase;
 }
-
